@@ -28,7 +28,7 @@
   }
 
   .base {
-    width: 170px;
+    width: 500px;
     position: relative;
     z-index: 0;
   }
@@ -181,4 +181,42 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.publicidade {
+  margin: 30px auto;
+  max-width: 728px;
+}
+
+.aviso-publicidade {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.banner-afiliado {
+  width: 50%;
+  max-width: 728px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.banner-afiliado:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.banner-afiliado:active {
+  transform: scale(0.98);
 }

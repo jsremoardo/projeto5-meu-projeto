@@ -118,6 +118,36 @@ export default function App() {
           onChange={(e) =>
             setManual(e.target.value)
           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         />
 
         <button
@@ -133,7 +163,7 @@ export default function App() {
             adicionarManual("Saída")
           }
         >
-          Saída Manual
+Saída Manual
         </button>
       </div>
 
@@ -148,6 +178,29 @@ export default function App() {
             <th>Ação</th>
           </tr>
         </thead>
+
+
+        <div className="publicidade">
+  <p className="aviso-publicidade">Kit Whey Protein 2kg Baunilha + Creatina + Bcaa + Coqueteleira - Bodybuilders 
+    R$ 78,98
+73% OFF
+12x R$7,78 </p>
+
+
+
+  <a
+    href="https://meli.la/27pUYnz"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src="https://http2.mlstatic.com/D_NQ_NP_2X_790948-MLA106375142306_022026-F.webp"
+      alt="Publicidade"
+      className="banner-afiliado"
+    />
+  </a>
+</div>
+
 
         <tbody>
           {registros.map((item) => (
@@ -176,4 +229,19 @@ export default function App() {
       </div>
     </div>
   );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
